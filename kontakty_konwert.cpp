@@ -160,7 +160,7 @@ int main()
     {
         do
         {
-            getline(ff_in, linn, '\n');   //odczytujê jedn¹ liniê w pliku wejœciowym
+            getline(ff_in, linn, '\n');   // read one line in input file (odczytujê jedn¹ liniê w pliku wejœciowym)
             (*item).t_choose(linn);       //funkcja wybierz-liniê przydziela odczytan¹ treœæ z linii do konkretnej kolumny
             kn++;
         } while(linn.substr(0,3) != "END");
