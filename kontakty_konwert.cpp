@@ -55,7 +55,7 @@ class Kontakt
 
     }
 
-    string write_line() //skleja dane kontaktu w jeden wiersz
+    string write_line() //merge contact data to one line (skleja dane kontaktu w jeden wiersz)
     {
         string line_out;
         line_out =
